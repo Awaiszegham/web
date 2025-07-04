@@ -1,0 +1,45 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header {
+    background: linear-gradient(to right, #6a11cb, #2575fc);
+    color: white;
+}
+
+.card {
+    transition: transform .2s;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+#why-us ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#why-us ul li {
+    padding: 10px 0;
+    border-bottom: 1px solid #ddd;
+}
+
+#why-us ul li:before {
+    content: '✓';
+    color: #2575fc;
+    padding-right: 10px;
+}
+
+#contact {
+    background-color: #f8f9fa;
+    padding: 40px;
+    border-radius: 8px;
+}
+
+/* Hide n8n branding */
+.n8n-chat-powered-by {
+    display: none !important;
+}
